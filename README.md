@@ -56,3 +56,7 @@ GitHub Actions automatically runs checks on pushes and pull requests:
 - Automated tests using pytest
 
 These checks help catch errors before changes are merged.
+
+## CD 
+
+created and publeshed a docker image to docker hub 
