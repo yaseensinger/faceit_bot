@@ -56,5 +56,3 @@ GitHub Actions automatically runs checks on pushes and pull requests:
 - Automated tests using pytest
 
 These checks help catch errors before changes are merged.
-
-**Note:** Never commit your `.env` file or API keys to GitHub.
