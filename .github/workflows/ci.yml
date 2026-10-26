@@ -22,7 +22,8 @@ permissions:
 
 jobs:
 
-  name  lint and test (CI)
+  lint and test (CI):
+    name: Lint and test
     runs-on: ubuntu-latest
     strategy:
       matrix:
