@@ -22,8 +22,8 @@ permissions:
 
 jobs:
 
-  lint and test (CI):
-    name: Lint and test
+  lint-and-test-(CI):
+    name: Lint-and test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -56,7 +56,7 @@ jobs:
         run: python -m pytest -v
 
  
-  publish (CD):
+  publish-(CD):
     name: Build and publish Docker image
     runs-on: ubuntu-latest
     needs: test
