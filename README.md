@@ -59,4 +59,4 @@ These checks help catch errors before changes are merged.
 
 ## CD 
 
-created and publeshed a docker image to docker hub 
+created and publeshed a docker image to docker hub   

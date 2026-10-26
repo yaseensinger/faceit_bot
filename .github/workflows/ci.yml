@@ -3,12 +3,21 @@ name: Bot CI/CD
 
 on:
   push:
+  workflow_dispatch:
+    inputs:
+      python-version:
+        decription: "choose version"
+        required: true
+        default: "3.11"
+
   pull_request:
 
 permissions:
   contents: read
 
 jobs:
+
+
   test:
     name: Lint and test
     runs-on: ubuntu-latest
