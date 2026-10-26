@@ -9,6 +9,11 @@ on:
         decription: "choose version"
         required: true
         default: "3.11"
+        type: choice 
+        options:
+        - 3.11
+        - 3.10
+        - 3.9
 
   pull_request:
 
@@ -16,6 +21,13 @@ permissions:
   contents: read
 
 jobs:
+
+  build:
+    
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+
 
 
   test:
